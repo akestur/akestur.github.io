@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/script.js"></script>
+        <title> Projects </title>
+        <style>
+            body {
+                background-image: url('assets/images/san_jose.jpg');
+                background-size:cover;
+            }
+        </style>
+    </head>
+
+    <body>
+            <div class="header">
+                    <h1>Projects</h1>
+            </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+          <!-- row of three pictures -->
+	    <div id="pictures">
+            <img src="assets/images/elevate.jpg" alt="" id="picture-1">
+            <img src="assets/images/release.jpg" alt="" id="picture-2">
+            <img src="assets/images/lock.jpg" alt="" id="picture-3">
+            <img src="assets/images/db.jpg" alt="" id="picture-4">
+            <img src="assets/images/pacman.jpg" alt="" id="picture-5">
+        </div>
+    
+        <!-- full-screen overlay for lightbox -->
+        <div id="lightbox-overlay" class="hidden"></div>
+    
+        <!-- lightbox pop-up elements that are hidden using a css class -->
+        <div class="lightbox hidden" id="doggo1">
+            <img src="assets/images/elevate.jpg" alt="">
+            <div class="caption">
+                <h2 class="projectElevateTitle"> Project Elevate (Web) </h2>
+                <div class="projectDesc">
+                        <ul class="projectCapWidth">
+                                <li>
+                                        •	Full-stack web application managing scheduling appointments and payments for a fitness program
+                                </li>
+                                <li>
+                                        •	Ruby on Rails, ActiveRecord and SQLite for backend                    
+                                </li>
+                                
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="lightbox hidden" id="doggo2">
+                <img src="assets/images/release.jpg" alt="">
+                <div class="caption">
+                    <h2 class="projectElevateTitle">Release (iOS) </h2>
+                    <div class="projectDesc">
+                            <ul class="projectCapWidth">
+                                    <li>
+                                            •	Apple watch application that guides users to improve basketball shot motion through ML training and prediction                                    </li>
+                                    <li>
+                                            •	Swift Core Motion library for accelerometer and gyroscope sensor data, PostgreSQL backend, Python for ML                                    </li>
+                                    
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="lightbox hidden" id="doggo3">
+                    <img src="assets/images/lock.jpg" alt="">
+                    <div class="caption">
+                        <h2 class="projectElevateTitle">FileEncrypt</h2>
+                        <div class="projectDesc">
+                                <ul class="projectCapWidth">
+                                        <li>
+                                                •	Used symmetric and RSA encryption along with hash-based authentication codes to preserve confidentiality and integrity in file sharing in Golang                                        <li>
+                                                        •	User and file data stored in publicly accessible datastore, encryption keys stored in public keystore                                        
+                                </ul>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="lightbox hidden" id="doggo4">
+                    <img src="assets/images/db.jpg" alt="">
+                    <div class="caption">
+                        <h2 class="projectElevateTitle">Database Design </h2>
+                        <div class="projectDesc">
+                                <ul class="projectCapWidth">
+                                        <li>
+                                                •	Built from scratch standard functionality of a relational database, including CRUD, join algorithms, and resource locking logic in Java                        </div>
+                    </div>
+                </div>
+
+                <div class="lightbox hidden" id="doggo5">
+                        <img src="assets/images/pacman.jpg" alt="">
+                        <div class="caption">
+                            <h2 class="projectElevateTitle">Autonomous Pacman </h2>
+                            <div class="projectDesc">
+                                    <ul class="projectCapWidth">
+                                            <li>
+                                                    •	Used uninformed search, markov decision trees, and reinforcement learning algorithms to build autonomous Pacman agent in Python                             </div>
+                        </div>
+                    </div>
+        
+    
+        <script src="assets/scripts/main.js"></script>
+    </body>
+</html>
